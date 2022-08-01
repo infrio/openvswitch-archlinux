@@ -4,9 +4,13 @@
 - build and install systemtap package
 
   `cd systemtap
+
    makepkg
+
    pacman -U systemtap-4.7-1-x86_64.pkg.tar.zst 
   `
 - build openvswitch
 
-  `cd ovs; makepkg`
+  `cd ovs
+
+   makepkg`
